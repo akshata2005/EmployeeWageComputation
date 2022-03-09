@@ -8,13 +8,13 @@ namespace EmployeeWage
 {
     public class Program
     {
-       public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //printing message on console
             Console.WriteLine("Welcome To Employee Wage Computation Program");
-            CalculateEmpWage.WageCompute();    // calling static method using class name.
+            CalculateEmpWage empWage = new CalculateEmpWage();   //creating object of class
+            empWage.WageCompute();
             Console.ReadLine();
         }
-           
     }
 }
