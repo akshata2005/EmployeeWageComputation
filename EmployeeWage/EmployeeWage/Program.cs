@@ -18,7 +18,6 @@ namespace EmployeeWage
             company.AddCompany("Reliance", 25, 125, 24);
             company.AddCompany("Amazon", 40, 110, 22);
             company.GetWage();
-            Console.WriteLine("Total Wage for Company is: " + company.GetTotalWage("Dmart"));
             Console.ReadLine();
         }
     }
